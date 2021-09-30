@@ -93,6 +93,61 @@
   text-decoration: none;
   color: orange;
 }
+.about .about__list li a:hover {
+  fill: 1;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: orange;
+}
+.gallery .gallery__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  height: 250px;
+  margin: 20px;
+  border-radius: 13px;
+  box-shadow: rgba(0, 0, 0, 0.589) 0px 5px 15px;
+  -o-object-fit: scale-down;
+     object-fit: scale-down;
+}
+.gallery .gallery__item h2 {
+  background-color: rgba(20, 20, 20, 0.483);
+  color: white;
+  border-radius: 13px;
+  padding: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.gallery .gallery__item--1 {
+  background-image: url("https://m.media-amazon.com/images/I/51pPOQbrk3L._SX342_.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.gallery .gallery__item--2 {
+  background-image: url("https://elenanofriki.com/20730-medium_default/poster-star-wars-new-hope-special-edition-.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.gallery .gallery__item--3 {
+  background-image: url("https://images-na.ssl-images-amazon.com/images/I/91eOgodm4nL.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.gallery .gallery__item--4 {
+  background-image: url("https://cdn.shopify.com/s/files/1/0057/3728/3618/products/f38cb38707f05dc86f483b07c215c7dd_a1fb33f9-f075-438f-bc49-2e8c2a2e2d02_480x.progressive.jpg?v=1573653657");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 /* Load google's Roboto font*/
 /* Reboot */
 html,

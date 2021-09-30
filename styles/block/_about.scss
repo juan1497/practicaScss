@@ -37,7 +37,7 @@
                 color:$orange-primary-color;
 
                 &:hover{
-
+                    fill: opacity($color: #000000)
                 }
             }
         }
