@@ -1,0 +1,27 @@
+.navigation{
+    background-color: $black-primary-color;
+    background-image: url("https://p4.wallpaperbetter.com/wallpaper/133/827/615/minimalism-star-wars-death-star-wallpaper-preview.jpg");
+    background-size: 60%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    .navigation__list{
+        height: 70px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        .navigation__item{
+            padding: 10px;
+            // background-color: $orange-third-color;
+            // border-radius: 10px;
+            a{
+                text-transform: uppercase;
+                text-decoration: none;
+                color:$black-secondary-color;
+                &:hover{
+                    color:$orange-primary-color;
+                    font-style: italic;
+                }
+            }
+        }
+    }
+}
